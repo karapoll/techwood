@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:white;
+	font-family:"Courier New", Courier, monospace;
+	background:url(file:///Katre/Users/katre/Desktop/AKTUEL/KSOUFI_TECHWOOD_WIN_APPLI/KSOUFI_TECHWOOD_APPLI/img/fond_points.jpg) repeat;
+}
+
+img{
+	width: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+section a{
+	color: #000;
+}
+
+p{
+	font-family:"Courier New", Courier, monospace;
+	font-size:11px;
+	color:white;
+}
+/* -------------------------------------------------------------------------------------------------------------- */
+/* ENTETE */
+/* -------------------------------------------------------------------------------------------------------------- */
+#entete{
+	background:black;
+	height:80px;
+	position: relative;
+}
+
+#entete p{
+	float:right;
+	margin-top:60px;
+}
+
+#logo{
+	position:absolute;
+	z-index:1;
+	margin-left:90px;
+	margin-top:22px;
+}
+
+.langues{
+	margin-right:120px;
+}
+
+.menu{
+	margin-right: 80px;
+}
+/* -------------------------------------------------------------------------------------------------------------- */
+/* MASQUE */
+/* -------------------------------------------------------------------------------------------------------------- */
+#masque{
+	font-size:18px;
+	height:600px;
+	position:relative;
+	overflow:hidden;
+	background:url("../img/fond_points.jpg") repeat;
+}
+/* -------------------------------------------------------------------------------------------------------------- */
+/* SLIDER */
+/* -------------------------------------------------------------------------------------------------------------- */
+#slider{
+	background:transparent;
+	position:absolute;
+	top:100px;
+	left:100px;
+	width:1750px;
+}
+
+#secteur_1{
+	width:640px;
+	height:400px;
+	background:transparent;
+	margin: 0 50px 0 0;
+	float:left;
+}
+
+#secteur_2{
+	width:320px;
+	height:400px;
+	background:transparent;
+	margin: 0 50px 0 0;
+	float:left;
+}
+
+#secteur_3{
+	width:640px;
+	height:400px;
+	background:transparent;
+	margin: 0 50px 0 0;
+	float:left;
+}
+
+/* Styles des ENTETES */
+
+#slider header{
+	background:transparent;
+	height:80px;
+}
+
+#secteur_1 nav,
+#secteur_1 ul{
+	height:320px;
+	width:640px;
+}
+
+#secteur_2 nav,
+#secteur_2 ul{
+	height:320px;
+	width:320px;
+}
+
+#secteur_3 nav,
+#secteur_3 ul{
+	height:320px;
+	width:640px;
+}
+
+#slider section nav ul li p{
+	font-size:11px;
+	padding:5px;
+}
+
+#slider section nav ul li.tile_22{
+	background:fuchsia;
+	width:310px;
+	height:310px;
+	float:left;
+	margin: 0 10px 10px 0;
+}
+
+#slider section nav ul li.tile_11{
+	background:#228B22;
+	width:150px;
+	height:150px;
+	float:left;
+	margin: 0 10px 10px 0;
+}
+
+#slider section nav ul li.tile_12{
+	background:chartreuse;
+	width:150px;
+	height:310px;
+	float:left;
+	margin: 0 10px 10px 0;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------- */
+/* PIED DE PAGE */
+/* -------------------------------------------------------------------------------------------------------------- */
+#pieddepage{
+	background:black;
+	height:30px;
+		
+}
+
+.copyright{
+	font-family:"Courier New", Courier, monospace;
+	font-size:11px;
+	color:white;
+	padding-top:10px;
+	float:left;
+	margin-left:100px;
+}
+
+.reso{
+	font-family:"Courier New", Courier, monospace;
+	font-size:11px;
+	color:gray;
+	padding-top:10px;
+	float:right;
+	margin-right:120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

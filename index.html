@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>TECHWOOD</title>
+<link rel="shortcut icon" type="image/x-icon" href="img/favicon_circle.png" />
+
+<!-- Special MICROSOFT -->
+<meta http-equiv="msthemecompatible" content="yes"><!-- forcer pres win95 -->
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"><!-- forcer le moteur de rendu IE pour éviter écroulement mise en page css+javascript -->
+
+<!-- Special APPLICATION WINDOWS -->
+ 
+	<hta:application
+    	id="techwood"
+        applicationname:"techwood_appli"
+        windowstate:"maximize"
+        caption:"yes"
+        maximizebutton:"yes"                
+        minimizebutton:"yes"
+        border:"thick"
+        borderstyle:"normal"
+        navigable:"no"
+        singleinstance:"yes"
+    ><!-- transforme page html en logiciel window = html application -->
+
+
+<link rel="stylesheet" type="text/css" href="css/reset.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/interface.css" media="all">
+
+</head>
+
+<body>
+
+	<header id="entete">
+	    <div id="logo">
+	    	<a href="index.html"><img src="img/TECHWOOD_LOGO.png" alt="logo" /></a>
+	    </div>
+	    <p class="langues">
+	    	<a href="#">Fr</a> | <a href="#">En</a>
+	    </p>
+	    <p class="menu">
+	    	<a href="img/TECHWOOD_MOBILE.jpg" class="download" download="TECHWOOD_MOBILE.jpg">Application mobile [télécharger .jpg]</a>
+	    </p>
+	    <p class="menu">
+	    	<a href="img/TECHWOOD_SITE.jpg" class="download" download="TECHWOOD_SITE.jpg">Site Internet [télécharger .jpg]</a>
+	    </p>
+	    <p class="menu">Scroll < -- ></p>   
+    </header>
+       
+    <div id="masque">
+    	<article id="slider">
+        	<section id="secteur_1">
+            	<header><h1>ECO-CONCEPTION CONSTRUCTION BOIS</h1></header>
+                <nav>
+                	<ul>
+                    	<li class="tile_22"><a href="#"><img src="img/APPLI_WIN_310x310.png"></a></li>
+                        <li class="tile_11"><a href="#"><img src="img/APPLI_WIN_150x150_1.png"></a></li>
+                        <li class="tile_11"><p>Le concept d'éco-construction repose entièrement sur l'objectif de l'économie d'énergie <a href="#">[+]</a></p></li>
+                        <li class="tile_11"><p>L'aspect social et environnemental est également en jeu dans le fait d'une attention certaine pour la dimension locale non humaine <a href="#">[+]</a></p></li>
+                        <li class="tile_11"><a href="#"><img src="img/APPLI_WIN_150x150_2.png"></a></li>
+                    </ul>           
+                </nav>
+            </section>
+            
+            <section id="secteur_2">
+            <header><h1>NORME HQE</h1></header>
+                <nav>
+                	<ul>
+                    	<li class="tile_12"><a href="#"><img src="img/APPLI_WIN_150x310.png"></a></li>
+                        <li class="tile_11"><a href="#"><img src="img/APPLI_WIN_150x150_6.png"></a></li>
+                        <li class="tile_11"><p>Une norme française a pour but d'encadrer les constructions qui se veulent économes en énergie : il s'agit de la Haute Qualité Environnementale (HQE) <a href="#">[+]</a></p></li>
+                    </ul>           
+                </nav>
+            </section>
+            
+            <section id="secteur_3">
+            <header><h1>ECO MATÉRIAUX / MATÉRIAUX BIOSOURCÉS</h1></header>
+                <nav>
+                	<ul>
+                    	<li class="tile_11"><a href="#"><img src="img/APPLI_WIN_150x150_3.png"></a></li>
+                        <li class="tile_11"><a href="#"><img src="img/APPLI_WIN_150x150_7.png"></a></li>
+                        <li class="tile_11"><p>Des réponses aux multiples réflexions qui peuvent survenir, durant la mise en place d'un projet de construction écologique <a href="#">[+]</a></p></li>
+                        <li class="tile_11"><a href="#"><img src="img/APPLI_WIN_150x150_5.png"></a></li>
+                        <li class="tile_11"><a href="#"><img src="img/APPLI_WIN_150x150_10.png"></a></li>
+                        <li class="tile_11"><a href="#"><img src="img/APPLI_WIN_150x150_12.png"></a></li>
+                        <li class="tile_11"><p>La maison écologique, ses différentes orientations possibles : bioclimatique, passive, positive <a href="#">[+]</a></p></li>
+                        <li class="tile_11"><a href="#"><img src="img/APPLI_WIN_150x150_11.png"></a></li>
+                    </ul>           
+                </nav>
+            </section>
+            
+        </article>
+    </div>
+    
+    <footer id="pieddepage">
+    	<p class="copyright">© ​<a href="../portfolio/index.html" target="_blank">KARIM APOLLINAIRE SOUFI</a> / + 33 (0) 6 61986571 / karim.apollinaire@gmx.net /</p>
+        <p class="reso"><a href="#">Facebook </a><a href="">Twitter </a><a href="">Trumblr </a><a href="">Pinterest </a></p>
+    </footer>
+    
+<!-- |||||||||||||||||||||||||||JAVASCRIPT EXTERNE|||||||||||||||||||||||||||| -->
+<script type="text/javascript" src="javascript/jquery-1.9.0.min.js"></script><!-- fichier externe biblio jquery.com pour unif code javascr IE6 jusq last nav -->
+<script type="text/javascript" src="javascript/jquery-extend-core.js"></script><!-- F5 pour que cela apparaisse dans DW -->
+<script type="text/javascript" src="javascript/jquery-extend-mouse.js"></script><!-- ordre important : du général au spécifiq -->
+<script type="text/javascript" src="javascript/jstween-1.1.min.js"></script><!-- version minifiée pour mettre directement en prod différente version développement c.a.d. en une seule ligne plus léger -->
+<script type="text/javascript" src="javascript/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript" src="javascript/modernizr.custom.touchevent.js"></script><!-- détecte si navigateur capable de lire certaines fonctionalités -->
+
+<!-- ||||||||||||||||||||||||||||JAVASCRIPT||||||||||||||||||||||||||||||||||| -->
+<script type="text/javascript">
+	//le code javascript se réfère à une structure html et une mise en page css
+	
+	//le javascript s'appliquera une fois la page html+css+img+.. entièrement chargée
+	
+	//A: calcul de la dimension de l'écran : petit, grand, horiz, vert..
+	//alert(screen.width + ' : ' + screen.height); // dimension écran
+	//alert($(window).innerWidth() + ' : ' +  $(window).innerHeight() );// dimension fenêtre intérieure
+	//alert($(window).outerWidth(true) + ' : ' +  $(window).outerHeight(true) );// dimension fenêtre extérieure
+	//alert($(window).width() + ' : ' +  $(window).height() );// dimension fenêtre
+
+	//B: calcul pour redimensionnement de la div "masque" et le centrage vert de l'article "slider"
+	var largeurDispoEcran = $(window).innerWidth;
+	var hauteurDispoEcran = $(window).innerHeight;
+	
+	//var hauteurEntete = 80;
+	//var hauteurPied = 30;
+
+	var hauteurEntete = $('#entete').height();//ciblage css utilisé dans jQuery //80
+	var hauteurPied = $('#pieddepage').height();//30
+	
+	//alert(hauteurEntete + ' : ' + hauteurPied);//alerte info taille hauteur tête et pied
+	
+	var masque = $('#masque');
+	
+	//B1: calcul au changement de la page
+	//B2: calcul au changement de dimension de la page
+	$(window).on('load resize',function(e){
+		//code executable au chargement de la page
+		
+		//mise à jour de la hauteur du masque
+		var hauteurDispoEcran = $(window).innerHeight();
+		var hauteurMasque = hauteurDispoEcran - hauteurEntete - hauteurPied;
+		masque.css('height',hauteurMasque);
+		
+		//centrage vertical du slider
+		var hauteurSlider = $('#slider').height();
+		var hauteurTop = (hauteurMasque - hauteurSlider) / 2;
+		$('#slider').css('top',hauteurTop);//recalcule chaque fois sur css top; code javascript répond à des besoins scénaristiques	
+	});
+	
+	//C:déplacement horizontal du slider
+	var slider = $('#slider');
+	var positionInitiale = slider.position().left;
+	//alert(positionInitiale);
+	
+	var f_deplacementDroite = function(){
+		//alert ('déplacement droit demandé');
+		//quelle est la condition ????
+		//si la position actuelle est différente et inférieure à la position initiale
+		var positionActuelle = slider.position().left;
+		
+		if(positionActuelle < positionInitiale){
+		slider.css({
+			left: positionActuelle + 160
+		});
+		}
+	}
+	
+	var f_deplacementGauche = function(){
+		//alert ('déplacement gauche demandé');
+		var positionActuelle = slider.position().left;
+		//console.log(positionActuelle);
+		var largeurMasque = $(window).innerWidth();//A: récup dès le début du code
+		var largeurSlider = slider.width();//B
+		
+		var differenceMasqueSlider = largeurMasque - largeurSlider;//A - B
+			
+			//differenceMasqueSlider = differenceMasqueSlider - positionInitiale;//C - posInit//se renouvelle à chaque fois, s'auto-écrase
+			differenceMasqueSlider -= positionInitiale;//C-posInit
+			//console.log(differenceMasqueSlider);//valeur forcément négative
+		
+			//petite compensation complémentaire si nécessaire
+			differenceMasqueSlider -= 0;
+			
+		if(positionActuelle > differenceMasqueSlider){
+			slider.css({
+			left: positionActuelle - 160
+		});
+		}
+	}
+	
+	//C1:le clavier 108 touches
+	//keydown, keyup, keypress
+	$(window).on('keyup',function(e){
+		if(e.keyCode === 37 || e.keyCode === 81){
+			// || = alt+maj+l sur mac
+			//alert('vous avez enfoncé la flèche gauche ou Q');
+			//déplacement à droite du slider
+			f_deplacementDroite();
+		}
+		if(e.keyCode === 39 || e.keyCode === 68){
+			//alert('vous avez enfoncé la flèche droite ou D');
+			//déplacement à gauche du slider
+			f_deplacementGauche();
+		}
+	});
+	
+	//C2:la roulette de souris
+	masque.on({
+		'mousewheel':function(e,delta){
+		//console.log(delta);
+		if(delta > 0){
+			f_deplacementGauche();
+		}
+		if(delta < 0){
+			f_deplacementDroite();
+		}
+		}
+	});
+	
+	//C3:le swipe (mvt horizontal) sur un écran tactile
+	masque.swipe({
+		swipeLeft:function(){
+			f_deplacementGauche();
+		},
+		swipeRight:function(){
+			f_deplacementDroite();
+		}
+	});
+
+</script>
+
+<!-- |||||||||||||||||||||||||JAVASCRIPT PERSO PAGE|||||||||||||||||||||||||| -->
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
